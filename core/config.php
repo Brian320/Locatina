@@ -4,5 +4,5 @@ $link = mysqli_connect("localhost","root","","locatina") or die("Error " . mysql
 $site_url = 'http://localhost/locatina/';
 $relative_folder = '/locatina';
 //set_include_path(get_include_path() . PATH_SEPARATOR . 'C:\xampp\htdocs\locatina');
-include './lang/views_es.php';
+include(dirname(__DIR__).'/lang/views_es.php');
 ?>
