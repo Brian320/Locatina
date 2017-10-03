@@ -1,0 +1,31 @@
+body {
+	margin:0;
+	padding:0;
+}
+.navbar-locatina {
+	background-color: #5fc1d5;
+}
+.logo {
+	width: 130px;
+	height: 40px;
+	display: inline-block;
+	background-image: url(../images/logo.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin-right: 30px;
+}
+.search-btn {
+	float: left;
+	border-right: none;
+	border-radius: 3px 0 0 3px;
+	margin-right: -1px;
+    border-color: #fff;
+}
+.search-input {
+	float: left;
+	border-left: none;
+	border-radius: 0 3px 3px 0;
+	outline: none;
+    border-color: #fff;
+}
